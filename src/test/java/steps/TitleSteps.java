@@ -25,11 +25,7 @@ public class TitleSteps {
         Assert.assertTrue(driver.getTitle().contains(expectedText));
     }
 
-<<<<<<< HEAD
     @Then("Api response test")
-=======
-    @Then("Api response tests")
->>>>>>> commited
     public void validate() {
         given()
                 .baseUri("https://jsonplaceholder.typicode.com")
